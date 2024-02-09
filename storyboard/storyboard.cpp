@@ -136,3 +136,13 @@ int main() {
 
     return 0;
 }
+// Performance:
+// addNote() time complexity: O(1) (It just adds a note to the vector)
+// search() time complexity: O(n) (It has to iterate all notes to find matching notes)
+
+// Memory:
+// By using vectors, memory is allocated dynamically and the size of the vector can grow as needed.
+
+// Design:
+// If performance would have been a concern, I would have used one of the map data structures to achieve better time complexity for search.
+// That would cause memory overhead, but it would be a trade-off for better performance.
